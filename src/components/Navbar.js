@@ -6,13 +6,13 @@ const Navbar = () => {
 	return (
 		<nav className="navbar">
 			<div className="nav-center">
-				<Link to="/">
+				<Link to="/cocktail_app">
 					<img src={logo} alt="cocktail db logo" className="logo"/>
 				</Link>
 				<ul className="nav-links">
 					<li>
-						<Link to='/'>Home</Link>
-						<Link to='/about'>About</Link>
+						<Link to='/cocktail_app'>Home</Link>
+						<Link to='/cocktail_app/about'>About</Link>
 					</li>
 				</ul>
 			</div>

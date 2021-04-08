@@ -21,7 +21,7 @@ function App() {
 				<Route path='/cocktail_app/about'>
 					<About/>
 				</Route>
-				<Route path='//cocktail_app/cocktail/:id'>
+				<Route path='/cocktail_app/cocktail/:id'>
 					<SingleCocktail/>
 				</Route>
 				<Route path='*'>
