@@ -18,10 +18,10 @@ function App() {
 				<Route exact path='/cocktail_app'>
 					<Home/>
 				</Route>
-				<Route path='/about'>
+				<Route path='/cocktail_app/about'>
 					<About/>
 				</Route>
-				<Route path='/cocktail/:id'>
+				<Route path='//cocktail_app/cocktail/:id'>
 					<SingleCocktail/>
 				</Route>
 				<Route path='*'>
